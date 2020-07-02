@@ -1,0 +1,183 @@
+#background-section-0 {
+  background-color : #222831;
+  width: 700px;
+  width: 100%;
+}
+
+#background-section-1 {
+  background-color : #222831;
+  /* height: 700px; */
+
+}
+
+body{
+  font-family:"ubuntu";
+}
+
+#background-section-2{
+  background-color: #f4f6ff;
+/* height: 700px; */
+
+}
+
+.user_name{
+ font-family: 'Merienda', cursive;
+ font-size: 3.8rem;
+ line-height: 1.5;
+ color: #c7e2b2;
+ margin-left: 15%;
+ padding-top: 7%;
+
+}
+
+.navbar{
+  padding: 3rem 0 4.5rem 3rem;
+
+}
+.user_passion{
+  color: #eedad1;
+  font-family: 'Norican', cursive;
+  margin-left: 20%;
+}
+.fas{
+  padding-right: 0.5rem;
+}
+.fab{
+  padding-right: 0.5rem;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-size: 3rem;
+  font-family:  'Cabin Sketch', cursive;
+  padding-right: 4rem;
+}
+
+
+.btn{
+  color: #e1ffc2;
+
+}
+.Summary-card-text{
+  padding-left: 5%;
+}
+.Summary-card-header{
+
+  border-color:  #e1ffc2;
+
+}
+.Summary-card-body{
+  border-color:  #e1ffc2;
+}
+
+.Summary-container{
+
+    padding-left: 18%;
+    padding-right: 8%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+
+
+
+}
+.Summary-font{
+  font-family: 'Acme', sans-serif;
+  font-size:1.6rem;
+}
+
+.Education{
+  text-align: center;
+  padding-top: 3%;
+  color: #e1ffc2;
+  font-size: 3.5rem;
+  font-family: 'Lobster', cursive;
+}
+
+.Education-container{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 6%
+
+}
+.Education-tab{
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+.Education-col{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.4rem;
+  color: #e0dede;
+  line-height: 2;
+}
+.Skills-content{
+  padding-left: 25%;
+  padding-right: 15%;
+  padding-top: 8%;
+  padding-bottom:5%;
+}
+.skills-col-0{
+  color: #511845;
+  font-family: 'Patua One', cursive;
+  font-size: 2.3rem;
+  line-height: 2.5;
+}
+.skills-col-1{
+  color: #fb7b6b;
+  font-size: 2rem;
+  line-height: 2.5;
+}
+.Skills{
+  margin-left: 28%;
+  color: #6a197d;
+  font-size: 3.6rem;
+  font-family: 'Lobster', cursive;
+  margin-bottom: 8%;
+}
+/* .project-pane{
+  width: 1000px;
+  padding-left: 0.5%;
+} */
+.website{
+  padding-left: 60%;
+  padding-top: 10%;
+  padding-bottom: 15%;
+}
+.hackathons{
+  padding-top: 5%;
+  margin-left: 38%;
+  color: #6a197d;
+  font-size: 3.6rem;
+  font-family: 'Lobster', cursive;
+  margin-bottom: 8%;
+}
+.hackathon-list{
+  color: #222831;
+  font-size: 1.6rem;
+}
+.hackathon-row{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  color: #6a197d;
+}
+.hackathon-col{
+  padding: 12% 10% 10% 10%;
+}
+.certificate{
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #e1ffc2;
+  font-size: 3.5rem;
+  font-family: 'Lobster', cursive;
+
+}
+.certificate-row{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  color: #6a197d;
+}
+.certificate-col{
+
+}
