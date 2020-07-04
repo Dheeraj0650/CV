@@ -1,481 +1,239 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
 <head>
   <meta charset="utf-8">
-  <title>CV</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <title>TinDog</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/all.min.css">
-  <link rel="stylesheet" href="css/fontawesome.css">
-  <link rel="icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Galada&family=Merienda:wght@700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Norican&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
-      <section id="background-section-0">
+
+  <section class="colored-section" id="title">
+
     <div class="container-fluid">
 
       <!-- Nav Bar -->
-    
 
+      <nav class="navbar navbar-expand-lg navbar-dark">
 
-        <nav class="navbar  navbar-expand-lg  navbar-expand-sm navbar-dark">
+        <a class="navbar-brand" href="">tindog</a>
 
-          <a class="navbar-brand" href="">Curriculum vitae</a>
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
             <span class="navbar-toggler-icon"></span>
-          </button>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#summary"><button class="btn btn-outline-light btn-md"><i class="fas fa-user-tie"></i>Summary</button></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#education"><button class="btn btn-outline-light btn-md"><i class="fas fa-graduation-cap"></i> Education</button></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#skill"> <button class="btn btn-outline-light btn-md"><i class="fas fa-brain"></i> Skills</button></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#project"> <button class="btn btn-outline-light btn-md"><i class="fas fa-project-diagram"></i>Projects</button></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#hackathon"> <button class="btn btn-outline-light btn-md"><i class="fas fa-laptop-code"></i>Hackathons</button></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#certificate"> <button class="btn btn-outline-light btn-md"><i class="fas fa-certificate"></i></i>Certificates</button></a>
-              </li>
-            </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+          </ul>
 
-          </div>
-        </nav>
+        </div>
+      </nav>
 
 
-      </div>
+      <!-- Title -->
 
       <div class="row">
 
-
-        <div class="col">
-          <h1 class="user_name">V S S DHEERAJ KOTTE</h1>
-          <h1 class="user_passion"><i class="fas fa-hand-point-right"></i>Passionate to be a software development engineer</h1>
+        <div class="col-lg-6">
+          <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
         </div>
 
-      </div>
-      <div class="website">
-        <div class="row" style="padding-right:30%">
-          <div class="col-lg-4 col-md-4" style="padding:1%">
-            <a href="https://github.com/Dheeraj0650"><button class="btn btn-dark btn-md" style="background-color:##24292e;color:white"><i class="fab fa-github"></i>Github</button></a>
-          </div>
-          <div class="col-lg-4 col-md-4" style="padding:1%">
-            <a href="https://www.linkedin.com/in/v-s-s-dheeraj-kotte-61b8b81a7/"><button class="btn btn-outline-primary btn-md" style="color:white;"><i class="fab fa-linkedin"></i>LinkedIn</button></a>
-          </div>
-          <div class="col-lg-4 col-md-4" style="padding:1%">
-            <a href="mailto:kottedheeraj@gmail.com"><button class="btn btn-outline-danger btn-md" style="color:white;"><i class="fas fa-envelope"></i>Gmail</button></a>
-          </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
 
+      </div>
 
-
-        </div>
-      </div>
-    </div>
-
-    </div>
-</section>
-
-
-  <section id="background-section-2">
-    <div class="container-fluid Summary-container" id="summary">
-      <div class="card text-white bg-dark mb-3" style="max-width: 60rem;">
-        <div class="card-header Summary-card-header" style="font-size:3rem; font-family: 'Lobster', cursive;text-align:center;color:#e1ffc2">Professional Summary</div>
-        <div class="card-body Summary-card-body text-white">
-          <p class="card-text Summary-card-text">
-            <span style="color:#c7e2b2;"><i class="fas fa-shoe-prints" style="padding-right:15px"></i></span><span class="Summary-font">Capable of programming using data structures and algorithms in an efficient way.</span><br><br>
-            <span style="color:#c7e2b2;"><i class="fas fa-shoe-prints" style="padding-right:15px"></i></span><span class="Summary-font">Capable of designing and building applications efficiently.</span> <br><br>
-            <span style="color:#c7e2b2;"><i class="fas fa-shoe-prints" style="padding-right:15px"></i></span><span class="Summary-font">Ensure the performance, quality, and responsiveness of applications.</span><br><br>
-            <span style="color:#c7e2b2;"><i class="fas fa-shoe-prints" style="padding-right:15px"></i></span><span class="Summary-font">Collaborate with a team to define, design, and ship new features. Identify and correct bottlenecks and fix
-              bugs.</span><br><br>
-            <span style="color:#c7e2b2;"><i class="fas fa-shoe-prints" style="padding-right:15px"></i></span><span class="Summary-font">Help maintain code quality, organization, and automatization.</span>
-          </p>
-        </div>
-      </div>
-    </div>
-
-
-
-  </section>
-  <section id="background-section-0">
-    <p class="Education" id="education">
-      Education
-    </p>
-    <div class="container-fluid Education-container">
-
-      <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><span style="font-family: 'Pacifico', cursive;font-size:1.5rem">B.Tech</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><span style="font-family: 'Pacifico', cursive;font-size:1.5rem">Intermediate</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false"><span style="font-family: 'Pacifico', cursive;font-size:1.5rem">10th Class</span></a>
-        </li>
-      </ul>
-      <div class="tab-content Education-tab" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-          <div class="row">
-            <div class="col Education-col">
-              College Name
-            </div>
-            <div class="col Education-col">
-              CVR College Of Engineer
-            </div>
-          </div>
-          <div class="row">
-            <div class="col Education-col">
-              Location
-            </div>
-            <div class="col Education-col">
-              Ibrahimpatnam, Hyderabad, Telangana
-            </div>
-          </div>
-          <div class="row">
-            <div class="col Education-col">
-              Branch
-            </div>
-            <div class="col Education-col">
-              Computer Science and Engineering
-            </div>
-          </div>
-          <div class="row">
-            <div class="col Education-col">
-              Graduation Year
-            </div>
-            <div class="col Education-col">
-              2021
-            </div>
-          </div>
-          <div class="row">
-            <div class="col Education-col">
-              GPA
-            </div>
-            <div class="col Education-col">
-              8.0
-            </div>
-          </div>
-
-        </div>
-        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-          <div class="row">
-            <div class="col Education-col">
-              College Name
-            </div>
-            <div class="col Education-col">
-              Sri Chaitanya Junior College
-            </div>
-          </div>
-          <div class="row">
-            <div class="col Education-col">
-              Location
-            </div>
-            <div class="col Education-col">
-              Madhapur,Hyderabad,Telangana
-            </div>
-          </div>
-          <div class="row">
-            <div class="col Education-col">
-              Course
-            </div>
-            <div class="col Education-col">
-              MPC
-            </div>
-          </div>
-          <div class="row">
-            <div class="col Education-col">
-              Graduation Year
-            </div>
-            <div class="col Education-col">
-              2017
-            </div>
-          </div>
-          <div class="row">
-            <div class="col Education-col">
-              Percentage
-            </div>
-            <div class="col Education-col">
-              96%
-            </div>
-          </div>
-
-        </div>
-        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-          <div class="row">
-            <div class="col Education-col">
-              School Name
-            </div>
-            <div class="col Education-col">
-              Rao's My Techno School
-            </div>
-          </div>
-          <div class="row">
-            <div class="col Education-col">
-              Location
-            </div>
-            <div class="col Education-col">
-              Karimnagar,Telangana
-            </div>
-          </div>
-          <div class="row">
-            <div class="col Education-col">
-              Graduation Year
-            </div>
-            <div class="col Education-col">
-              2015
-            </div>
-          </div>
-          <div class="row">
-            <div class="col Education-col">
-              Percentage
-            </div>
-            <div class="col Education-col">
-              93%
-            </div>
-          </div>
-
-        </div>
-      </div>
-  </section>
-  <section class="background-section-2" id="skill">
-    <div class="container-fuild Skills-content">
-      <h1 class=Skills>Skills</h1>
-      <div class="row">
-        <div class="col-lg-6 skills-col-0">
-          Data Structures
-        </div>
-        <div class="col-lg-6 skills-col-1">
-          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 skills-col-0">
-          <i class="fas fa-sitemap"></i>Algorithms
-        </div>
-        <div class="col-lg-6 skills-col-1">
-          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 skills-col-0">
-          <i class="fab fa-python"></i>Python
-        </div>
-        <div class="col-lg-6 skills-col-1">
-          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 skills-col-0">
-          <i class="fab fa-java"></i>Java
-        </div>
-        <div class="col-lg-6 skills-col-1">
-          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 skills-col-0">
-          <i class="fab fa-swift"></i>Swift
-        </div>
-        <div class="col-lg-6 skills-col-1">
-          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 skills-col-0">
-          <i class="fab fa-html5"></i>HTML
-        </div>
-        <div class="col-lg-6 skills-col-1">
-          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 skills-col-0">
-          <i class="fab fa-css3-alt"></i>CSS
-        </div>
-        <div class="col-lg-6 skills-col-1">
-          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 skills-col-0">
-          <i class="fab fa-bootstrap"></i>Bootstrap
-        </div>
-        <div class="col-lg-6 skills-col-1">
-          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 skills-col-0">
-          jQuery
-        </div>
-        <div class="col-lg-6 skills-col-1">
-          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 skills-col-0">
-          <i class="fab fa-js-square"></i>Javascript
-        </div>
-        <div class="col-lg-6 skills-col-1">
-          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 skills-col-0">
-          <i class="fab fa-github"></i>Github
-        </div>
-        <div class="col-lg-6 skills-col-1">
-          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 skills-col-0">
-          <i class="fab fa-aws"></i>AWS
-        </div>
-        <div class="col-lg-6 skills-col-1">
-          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 skills-col-0">
-          <i class="fas fa-users"></i>Team building
-        </div>
-        <div class="col-lg-6 skills-col-1">
-          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-        </div>
-      </div>
     </div>
 
   </section>
-  <section id="background-section-0">
-    <p class="Education" id="project">
-      Projects
-    </p>
-    <div class="container-fluid Education-container">
 
-      <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link active" id="pills-Home-tab" data-toggle="pill" href="#pills-Home" role="tab" aria-controls="pills-Home" aria-selected="true"><span style="font-family: 'Pacifico', cursive;font-size:1.5rem">Smart Attendance</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="pills-Profile-tab" data-toggle="pill" href="#pills-Profile" role="tab" aria-controls="pills-Profile" aria-selected="false"><span style="font-family: 'Pacifico', cursive;font-size:1.5rem">Smart Copy Paste</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="pills-Contact-tab" data-toggle="pill" href="#pills-Contact" role="tab" aria-controls="pills-Contact" aria-selected="false"><span style="font-family: 'Pacifico', cursive;font-size:1.5rem">Error 404</span></a>
-        </li>
-      </ul>
-      <div class="tab-content Education-tab" id="pills-tabContent">
-        <div class="tab-pane fade show active project-pane" id="pills-Home" role="tabpanel" aria-labelledby="pills-Home-tab" style="color: #e0dede;font-size:1.4rem;">
-          <div class="container">
-            <button class="btn btn-outline-light btn-md" style="margin:0 0 5% 38%"><a href="https://github.com/Dheeraj0650/Smart-Attendance"><i class="fab fa-github"></i>Github</a></button>
-            <p>There are many mediums in which the attendance can be taken,either manually or bio-metrically.we've come up with a new idea ie through face recognition.<br />
-              Some of the key features of our project are:
-            <ol>
-              <li>Attendance through face scan</li>
-              <li>Attendance counts only when the individual is in the correct area of the allotted work.</li>
-            </ol>
-            Some of the modules we use in our project are:
-            <ol>
-              <li>Advanced coreML module in iOS for face recognition.</li>
-              <li>CoreLocation to get location and Firebase to store data.</li>
-            </ol>
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="colored-section" id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
           </div>
         </div>
-        <div class="tab-pane fade project-pane" id="pills-Profile" role="tabpanel" aria-labelledby="pills-Profile-tab" style="color: #e0dede;font-size:1.4rem;">
-          <button class="btn btn-outline-light btn-md" style="margin:0 0 5% 38%"><a href="https://github.com/Dheeraj0650/Smart_Copy_Paste"><i class="fab fa-github"></i>Github</a></button>
-          <p>This app is used to copy paste the real world objects and text into the computer using ARKit and CoreML frameworks.The images are captured using vision framework and the background is removed by making an API call.</p>
-        </div>
-        <div class="tab-pane fade project-pane" id="pills-Contact" role="tabpanel" aria-labelledby="pills-Contact-tab" style="color: #e0dede;font-size:1.4rem;">
+      </div>
 
-          <button class="btn btn-outline-light btn-md" style="margin:0 0 5% 38%"><a href=""><i class="fab fa-github"></i>Github</a></button>
-          <p>It is an Any Time IT Help Desk App with chat bot interaction where employee can raise the software requests and the chatbot replies back without human intervention</p>
-
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$49 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+          </div>
         </div>
       </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$99 / mo</h2>
+            <p>Pirority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid">
+
+      <h3 class="big-heading">Find the True Love of Your Dog's Life Today.</h3>
+      <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
+      <button class="download-button btn btn-lg brn-light" type="button"><i class="fab fa-google-play"></i> Download</button>
     </div>
   </section>
-  <section id="background-section-2">
-    <h1 class="hackathons" id="hackathon">Hackathon</h1>
-    <div class="row hackathon-row">
-      <div class="col-lg-6">
-        <img src="jhub.jpg" alt="" width="100%">
-      </div>
-      <div class="col-lg-6 hackathon-col">
-        <span style="color:#092532;font-family: 'Patua One', cursive;font-size:2.5rem;">RURATHON</span><br>
-        <i class="fas fa-shoe-prints fa-1x" style="padding-right:15px"></i><span style="color:#4a3f35">hackathon conducted by JNTU.</span>
-      </div>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2018 TinDog</p>
     </div>
-    </div>
-    <div class="row hackathon-row">
-      <div class="col-lg-6">
-        <img src="" alt="" width="100%">
-      </div>
-      <div class="col-lg-6 hackathon-col">
-        <span style="color:#092532;font-family: 'Patua One', cursive;font-size:2.5rem;">VIRTUSA CODELITE</span><br>
-        <i class="fas fa-shoe-prints fa-1x" style="padding-right:15px"></i><span style="color:#4a3f35">hackathon conducted by virtusa.</span>
-      </div>
-    </div>
-    </div>
-  </section>
-  <section id="background-section-1">
-    <h1 class="certificate" id="certificate">Certificates</h1>
-    <div class="row certificate-row">
-      <div class="col-lg-6" style="padding:8%">
-        <img src="nptel.jpg" alt="" width="105%">
-      </div>
-      <div class="col-lg-6 certificate-col" style="padding:15% 5% 0 3%">
-        <span style="color:#f7f7ee;font-family: 'Patua One', cursive;font-size:1.7rem;text-align:center">NPTEL Certificate on Programming,data structures and algorithms using python with an aggregate of 74%.</span><br>
-      </div>
-    </div>
-    <div class="row certificate-row">
-      <div class="col-lg-6" style="padding:8%">
-        <img src="jhub.jpg" alt="" width="110%">
-      </div>
-      <div class="col-lg-6 certificate-col" style="padding:20% 5% 0 3%">
-        <span style="color:#f7f7ee;font-family: 'Patua One', cursive;font-size:1.7rem;text-align:center">Rurathon Certificate conducted by JNTU.</span><br>
-      </div>
-    </div>
-    <div class="row certificate-row">
-      <div class="col-lg-6" style="padding:8%">
-        <img src="" alt="" width="110%">
-      </div>
-      <div class="col-lg-6 certificate-col" style="padding:5% 5% 0 3%">
-        <span style="color:#f7f7ee;font-family: 'Patua One', cursive;font-size:1.7rem;text-align:center">Virtusa Hackathon Certificate for the best application developed.</span><br>
-      </div>
-    </div>Problem Solving (Intermediate) Certificate
-    <div class="row certificate-row">
-      <div class="col-lg-6" style="padding:8%">
-        <img src="hackerrank.png" alt="" width="110%">
-      </div>
-      <div class="col-lg-6 certificate-col" style="padding:20% 5% 0 3%">
-        <span style="color:#f7f7ee;font-family: 'Patua One', cursive;font-size:1.7rem;text-align:center">Problem Solving (Intermediate) Certificate from Hackerrank</span><br>
-      </div>
-    </div>
-  </section>
+  </footer>
+
 
 </body>
 
