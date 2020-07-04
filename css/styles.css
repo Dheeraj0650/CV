@@ -1,13 +1,13 @@
 #background-section-0 {
   background-color : #222831;
-  width: 700px;
-  width: 100%;
- 
+  text-align: center;
 }
 
 #background-section-1 {
   background-color : #222831;
   /* height: 700px; */
+
+
 
 }
 
@@ -17,41 +17,41 @@ body{
 
 #background-section-2{
   background-color: #f4f6ff;
+  text-align: center;
 /* height: 700px; */
 
 }
 
 .user_name{
  font-family: 'Merienda', cursive;
- font-size: 3.8rem;
+ font-size: 400%;
  line-height: 1.5;
  color: #c7e2b2;
- margin-left: 15%;
- padding-top: 7%;
+
 
 }
 
-.navbar{
+/* .navbar{
   padding: 3rem 0 4.5rem 3rem;
 
-}
+} */
 .user_passion{
   color: #eedad1;
   font-family: 'Norican', cursive;
-  margin-left: 20%;
+  /* margin-left: 20%; */
 }
-.fas{
+/* .fas{
   padding-right: 0.5rem;
 }
 .fab{
   padding-right: 0.5rem;
-}
+} */
 
 .navbar-brand{
   font-weight: bold;
   font-size: 3rem;
   font-family:  'Cabin Sketch', cursive;
-  padding-right: 4rem;
+  /* padding-right: 4rem; */
 }
 
 
@@ -88,7 +88,6 @@ body{
 
 .Education{
   text-align: center;
-  padding-top: 3%;
   color: #e1ffc2;
   font-size: 3.5rem;
   font-family: 'Lobster', cursive;
@@ -101,10 +100,7 @@ body{
 
 }
 .Education-tab{
-  padding-top: 5%;
-  padding-left: 15%;
-  padding-right: 5%;
-  padding-bottom: 5%;
+  padding-top: 2%;
 }
 .Education-col{
   font-family: 'Ubuntu', sans-serif;
@@ -130,28 +126,27 @@ body{
   line-height: 2.5;
 }
 .Skills{
-  margin-left: 28%;
   color: #6a197d;
   font-size: 3.6rem;
   font-family: 'Lobster', cursive;
-  margin-bottom: 8%;
+  padding-left: 36%;
 }
 /* .project-pane{
   width: 1000px;
   padding-left: 0.5%;
 } */
-.website{
+/* .website{
   padding-left: 60%;
   padding-top: 10%;
   padding-bottom: 15%;
-}
+} */
 .hackathons{
-  padding-top: 5%;
-  margin-left: 38%;
+
+
   color: #6a197d;
   font-size: 3.6rem;
   font-family: 'Lobster', cursive;
-  margin-bottom: 8%;
+
 }
 .hackathon-list{
   color: #222831;
@@ -162,13 +157,11 @@ body{
   font-size: 2rem;
   color: #6a197d;
 }
-.hackathon-col{
+/* .hackathon-col{
   padding: 12% 10% 10% 10%;
-}
+} */
 .certificate{
   text-align: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
   color: #e1ffc2;
   font-size: 3.5rem;
   font-family: 'Lobster', cursive;
@@ -178,7 +171,4 @@ body{
   font-family: 'Ubuntu', sans-serif;
   font-size: 2rem;
   color: #6a197d;
-}
-.certificate-col{
-
 }
