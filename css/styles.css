@@ -71,8 +71,8 @@ body{
 
 .Summary-container{
 
-    padding-left: 18%;
-    padding-right: 8%;
+    padding-left: 15%;
+    padding-right: 13%;
     padding-top: 8%;
     padding-bottom: 8%;
 
@@ -143,6 +143,7 @@ body{
   color: #6a197d;
   font-size: 3.6rem;
   font-family: 'Lobster', cursive;
+  padding-top: 2rem;
 
 }
 .hackathon-list{
