@@ -38,12 +38,13 @@ body{
   font-family: 'Norican', cursive;
   /* margin-left: 20%; */
 }
-fas{
+.fas{
   padding-right: 0.5rem;
 }
 .fab{
   padding-right: 0.5rem;
 } 
+
 
 .navbar-brand{
   font-weight: bold;
