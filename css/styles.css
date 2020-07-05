@@ -1,179 +1,173 @@
-
-body {
-  font-family: "Montserrat";
+#background-section-0 {
+  background-color : #222831;
   text-align: center;
+
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat-Bold";
+#background-section-1 {
+  background-color : #222831;
+  /* height: 700px; */
 }
 
-p {
-  color: #8f8f8f;
+body{
+  font-family:"ubuntu";
 }
 
-/* Headings */
+#background-section-2{
+  background-color: #f4f6ff;
+  text-align: center;
+/* height: 700px; */
 
-.big-heading {
-  font-family: "Montserrat-Black";
-  font-size: 3.5rem;
-  line-height: 1.5;
 }
 
-.section-heading {
-  font-size: 3rem;
-  line-height: 1.5;
+.user_name{
+ font-family: 'Merienda', cursive;
+ font-size: 400%;
+ line-height: 1.5;
+ color: #c7e2b2;
+
+
 }
 
-/* Containers */
+/* .navbar{
+  padding: 3rem 0 4.5rem 3rem;
 
-.container-fluid{
-  padding: 7% 15%;
+} */
+.user_passion{
+  color: #eedad1;
+  font-family: 'Norican', cursive;
+  /* margin-left: 20%; */
 }
-
-/* Sections */
-
-.colored-section {
-  background-color: #ff4c68;
-  color: #fff;
+/* .fas{
+  padding-right: 0.5rem;
 }
+.fab{
+  padding-right: 0.5rem;
+} */
 
-.white-section {
-  background-color: #fff;
-}
-
-/* Navigation Bar */
-
-.navbar {
-  padding: 0 0 4.5rem;
-}
-
-.navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
+.navbar-brand{
   font-weight: bold;
-}
-
-.nav-item {
-  padding: 0 18px;
-}
-
-.nav-link {
-  font-size: 1.2rem;
-  font-family: "Montserrat-Light";
-}
-
-/* Buttons */
-
-.download-button {
-  margin: 5% 3% 5% 0;
-}
-
-/* Title Section */
-
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
-}
-
-#title .container-fluid {
-  padding: 3% 15% 7%;
-}
-
-/* Title Image */
-
-.title-image {
-  width: 60%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 30%;
-}
-
-/* Features Section */
-
-#features {
-  position: relative;
-}
-
-.feature-title {
-  font-size: 1.5rem;
-}
-
-.feature-box {
-  padding: 4.5%;
-}
-
-.icon {
-  color: #ef8172;
-  margin-bottom: 1rem;
-}
-
-.icon:hover {
-  color: #ff4c68;
-}
-
-/* Testimonial Section */
-
-#testimonials {
-  background-color: #ef8172;
-}
-
-.testimonial-text {
   font-size: 3rem;
-  line-height: 1.5;
-}
-
-.testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
+  font-family:  'Cabin Sketch', cursive;
+  /* padding-right: 4rem; */
 }
 
 
-#press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
+.btn{
+  color: #e1ffc2;
+
+}
+.Summary-card-text{
+  padding-left: 5%;
+}
+.Summary-card-header{
+
+  border-color:  #e1ffc2;
+
+}
+.Summary-card-body{
+  border-color:  #e1ffc2;
 }
 
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
+.Summary-container{
+
+    padding-left: 18%;
+    padding-right: 8%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+
+
+
+}
+.Summary-font{
+  font-family: 'Acme', sans-serif;
+  font-size:1.6rem;
 }
 
-/* Pricing Section */
-
-#pricing {
-  padding: 100px;
+.Education{
+  text-align: center;
+  color: #e1ffc2;
+  font-size: 3.5rem;
+  font-family: 'Lobster', cursive;
+  padding-top: 3%
 }
 
-.price-text {
-  font-size: 3rem;
-  line-height: 1.5;
+.Education-container{
+   padding: 6% 8% 10% 10%;
 }
-
-.pricing-column {
-  padding: 3% 2%;
+.Education-tab{
+  padding-top: 2%;
+  padding-left: 10%
 }
-
-/* CTA Section */
-
-
-/* Footer Section */
-
-
-.social-icon {
-  margin: 20px 10px;
+.Education-col{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.4rem;
+  color: #e0dede;
+  line-height: 2;
 }
+.Skills-content{
+  padding-left: 25%;
+  padding-right: 15%;
+  padding-top: 8%;
+  padding-bottom:5%;
+}
+.skills-col-0{
+  color: #511845;
+  font-family: 'Patua One', cursive;
+  font-size: 2.3rem;
+  line-height: 2.5;
+}
+.skills-col-1{
+  color: #fb7b6b;
+  font-size: 2rem;
+  line-height: 2.5;
+}
+.Skills{
+  color: #6a197d;
+  font-size: 3.6rem;
+  font-family: 'Lobster', cursive;
+  padding-left: 36%;
+}
+/* .project-pane{
+  width: 1000px;
+  padding-left: 0.5%;
+} */
+/* .website{
+  padding-left: 60%;
+  padding-top: 10%;
+  padding-bottom: 15%;
+} */
+.hackathons{
 
-@media (max-width: 1028px) {
 
-  #title {
-    text-align: center;
-  }
+  color: #6a197d;
+  font-size: 3.6rem;
+  font-family: 'Lobster', cursive;
 
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  }
+}
+.hackathon-list{
+  color: #222831;
+  font-size: 1.6rem;
+}
+.hackathon-row{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  color: #6a197d;
+}
+.hackathon-col{
+
+}
+.certificate{
+  text-align: center;
+  color: #e1ffc2;
+  font-size: 3.5rem;
+  font-family: 'Lobster', cursive;
+}
+.certificate-row{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  color: #6a197d;
+}
+.certificate-col{
+  padding: 5%;
 }
